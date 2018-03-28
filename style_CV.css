@@ -1,0 +1,164 @@
+@font-face {
+	font-family:'Ultrafont';
+	src: url('def-font.ttf');
+}
+
+body
+{
+	background: url("index.png") no-repeat bottom 10px right 11px;
+	background-color: #557FFF;
+	font-family: Ultrafont, arial;
+}
+
+h1
+{
+	font-size: 4em;
+	color: #4400FF;
+	text-align: center;
+}
+
+h2
+{
+	font-size: 2em;
+	color: #0000FF;
+	position: relative;
+	top: -15px;
+	left: 8px;
+	text-decoration: underline;
+}
+
+strong
+{
+	font-size: 1.1em;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+em
+{
+	font-style: italic;
+	text-shadow: 5px 5px 5px pink;
+}
+
+p
+{
+	font-size: 1.5em;
+	font-color: #FFFFFF;
+}
+
+section
+{
+	display: inline-block;
+	position: relative;
+	margin:0px;
+	vertical-align: top;
+	margin-right: 15px;
+}
+
+header
+{
+	display: inline-block;
+	position: relative;
+	margin: auto;
+	width: 90%;
+	text-align: center;
+}
+
+#main_wapper
+{
+	margin: auto;
+	left: 152px;
+	height: 800px;
+	width: 1000px;
+	position: absolute;
+	border: 3px black solid;
+	border-radius: 7px 10px 10px 7px;
+	box-shadow: 5px 10px 20px;
+	overflow: hidden;
+}
+
+#Sidebar
+{
+	background-color: black;
+	width: 150px;
+	height: 105%;
+	min-height: 800px;
+	position: absolute;
+	left: 0px;
+	top: 10px;
+	min-width: 150px;
+	border-radius: 5px;
+	right-margin: 2px;
+}
+
+#Xp
+{
+	width: 30%;
+	border: black solid;
+	border-radius: 5px;
+	right-margin: 0px;
+	position: relative;
+	left: 10px;
+}
+
+#Skills
+{
+	width: 30%;
+	border: black solid;
+	border-radius: 5px;
+	left-margin: 5px;
+	right-margin: 0px;
+}
+
+#Edu
+{
+	width: 30%;
+	border: black solid;
+	border-radius: 5px;
+	left-margin: 5px;
+	right-margin: 0px;
+}
+
+#banner_image
+{
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	height: 100px;
+	width: 100px;
+	border-radius: 5px;
+	background: url('https://media.licdn.com/mpr/mpr/shrinknp_100_100/AAEAAQAAAAAAAAnYAAAAJGUxZGRiMzBlLTc2NDItNDkyNS1iYjYzLWZhMTA4YmJhMWEwMA.jpg') no-repeat;
+	box-shadow: 0px 4px 4px #1c1a19;
+	margin-bottom: 20px;
+	display: inline-block;
+}
+
+#banner_description
+{
+	position: absolute;
+	bottom: 0px;
+	text-align: center;
+	border-radius: 0px 0px 5px 5px;
+	width:96%;
+	height: 0px;
+	padding-bottom: 15px;
+	padding-left: 4px;
+	background-color: rgba(24,24,24,0.8);
+}
+
+#banner_text
+{
+	color: white;
+	font-size: 0.7em;
+	position: absolute;
+	bottom: -10px;
+	right: 35px;
+	text-align: center;
+}
+
+footer
+{
+	position:relative;
+	bottom: 0px;
+	left: 150px;
+}
